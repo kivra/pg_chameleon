@@ -17,6 +17,8 @@
     :target: https://pypi.org/project/pg_chameleon
 
     
+* This is a fork from the canonical pg_chameleon repository. This fork adds support for Docker. *
+
 pg_chameleon is a MySQL to PostgreSQL replica system written in Python 3. 
 The system use the library mysql-replication to pull the row images from MySQL which are stored into PostgreSQL as JSONB. 
 A pl/pgsql function decodes the jsonb values and replays the changes against the PostgreSQL database.
